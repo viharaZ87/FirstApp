@@ -34,9 +34,7 @@ export default function HomeScreen() {
       <SafeAreaView style={styles.safeArea}>
         <ThemedView style={styles.heroSection}>
           <AnimatedIcon />
-          <ThemedText type="title" style={styles.title}>
-            Welcome to&nbsp;Expo
-          </ThemedText>
+          <ThemedText type="title" style={styles.title}> "Hello React Native! This is a test."</ThemedText>
         </ThemedView>
 
         <ThemedText type="code" style={styles.code}>
